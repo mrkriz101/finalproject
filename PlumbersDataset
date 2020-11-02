@@ -1,4 +1,6 @@
 import pandas as pd
-
-chip = pd.read_csv("Plumbers.numbers", sep="\t")
+import numpy as np
+%matplotlib inline
+import matplotlib.pyplot as plt
+plumbers = pd.read_csv("Plumbers.numbers")
 
